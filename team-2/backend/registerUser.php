@@ -18,7 +18,7 @@ if (isset($_POST['submit'])){
 
     if($connection->query($sql))
     {
-        echo "<script>window.location.href='../login.php';alert('Registration successful.'); </script>";
+        echo "<script>window.location.href='../../index.html';alert('Registration successful.'); </script>";
     }
     else{
         header("location: ../frontend/colorlib-regform-4/index.html");
